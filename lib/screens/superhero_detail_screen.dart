@@ -13,9 +13,9 @@ class SuperheroDetailScreen extends StatelessWidget {
       appBar: AppBar(
         title: Row(
           children: [
-            Text("Superhero "),
+            Text("Superhero ", style: TextStyle(fontSize: 16),),
             Icon(Icons.arrow_right_alt),
-            Text(" ${superhero.name}"),
+            Text(" ${superhero.name}", style: TextStyle(fontSize: 16),),
           ],
         ),
       ),

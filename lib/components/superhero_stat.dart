@@ -24,7 +24,7 @@ class _SuperHeroStatState extends State<SuperHeroStat> {
           width: 20,
           color: widget.color,
         ),
-        Text(widget.tipoStat),
+        Text(widget.tipoStat, style: TextStyle(fontSize: 12),),
       ],
     );
   }
